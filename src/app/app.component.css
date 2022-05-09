@@ -1,0 +1,32 @@
+
+.logo{
+  display: flex;
+  height: 15vh;
+  font-size: 7vh;
+  line-height: 15vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #191919;
+  margin: auto;
+  color: white;
+
+}
+
+.content{
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  background-color: #191919;
+}
+
+footer {
+  display: flex;
+  height: 5vh;
+  background-color: #000;
+  color: white;
+  justify-content: center;
+  line-height: 4vh;
+  border-top: rgba(255, 255, 255, 0.5) 3px solid;
+  width: 100%;
+}
