@@ -1,0 +1,56 @@
+.mainContent{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+}
+
+.navi{
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+
+button {
+  border: 1px solid #ffffff;
+  background-color: #191919;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+button:hover {
+  border: 1px solid greenyellow;
+  background-color: #191000;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+
+.contentLogo{
+  position: relative;
+height: 100vh;
+  width: 100%;
+
+}
+.back{
+  position: absolute;
+  left: 33%;
+  top: 10%;
+  height: 55vh;
+
+
+}
