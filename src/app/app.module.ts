@@ -10,6 +10,7 @@ import { ConferenceRoomEditComponent } from './components/conference-room-edit/c
 import { ConferenceRoomAddComponent } from './components/conference-room-add/conference-room-add.component';
 import { ConferenceRoomGetComponent } from './components/conference-room-get/conference-room-get.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

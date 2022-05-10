@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-conference-room-get',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConferenceRoomGetComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  btnAddOrganization= () => {
+    this.router.navigateByUrl('/room/add');
+  }
+
+  btnBackToMain= () => {
+    this.router.navigateByUrl('/main');
+  }
 }
