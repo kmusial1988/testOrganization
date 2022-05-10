@@ -6,6 +6,10 @@ import { OrganizationGetComponent } from './components/organization-get/organiza
 import { MainComponent } from './components/main/main.component';
 import { OrganizationAddComponent } from './components/organization-add/organization-add.component';
 import { OrganizationEditComponent } from './components/organization-edit/organization-edit.component';
+import { ConferenceRoomEditComponent } from './components/conference-room-edit/conference-room-edit.component';
+import { ConferenceRoomAddComponent } from './components/conference-room-add/conference-room-add.component';
+import { ConferenceRoomGetComponent } from './components/conference-room-get/conference-room-get.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -13,10 +17,14 @@ import { OrganizationEditComponent } from './components/organization-edit/organi
     OrganizationGetComponent,
     MainComponent,
     OrganizationAddComponent,
-    OrganizationEditComponent
+    OrganizationEditComponent,
+    ConferenceRoomEditComponent,
+    ConferenceRoomAddComponent,
+    ConferenceRoomGetComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
