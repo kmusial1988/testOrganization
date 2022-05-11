@@ -6,3 +6,19 @@
   font-family: 'Roboto', sans-serif;
 
 }
+button {
+  border: 1px solid #ffffff;
+  background-color: #191919;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 25px;
+
+}
+
+
+button:hover {
+  border: 1px solid greenyellow;
+  background-color: #191000;
+  color: #ffffff;
+}

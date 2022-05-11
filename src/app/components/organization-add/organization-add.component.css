@@ -27,36 +27,7 @@ nav p {
 
 }
 
-nav button {
-  border: 1px solid #ffffff;
-  background-color: #191919;
-  color: #ffffff;
-  padding: 5px 100px;
-  font-size: 5vh;
-  margin-left: 5vw;
-}
 
-.contentAddOrganization button{
-  border: 1px solid #ffffff;
-  background-color: #191919;
-  color: #ffffff;
-  padding: 5px 100px;
-  font-size: 5vh;
-  margin: auto;
-
-}
-
-nav button:hover {
-  border: 1px solid greenyellow;
-  background-color: #191000;
-  color: #ffffff;
-}
-
-.contentAddOrganization button:hover {
-  border: 1px solid greenyellow;
-  background-color: #191000;
-  color: #ffffff;
-}
 
 .contentAddOrganization{
   display: flex;
