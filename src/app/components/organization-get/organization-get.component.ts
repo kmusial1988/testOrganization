@@ -20,4 +20,13 @@ export class OrganizationGetComponent implements OnInit {
   btnClickToMain= () => {
     this.router.navigateByUrl('/main');
   }
+
+  btnClickGoToEditOrganization= () => {
+    this.router.navigateByUrl('/organization/edit');
+  }
+
+  btnClickRemoveOrganization= () => {
+    this.router.navigateByUrl('/organization/get');
+    //TODO tu trzeba zrolić logige do wysyłania url api do usówania
+  }
 }

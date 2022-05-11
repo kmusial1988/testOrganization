@@ -11,6 +11,7 @@ import { ConferenceRoomAddComponent } from './components/conference-room-add/con
 import { ConferenceRoomGetComponent } from './components/conference-room-get/conference-room-get.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from "@angular/common/http";
+import { ReservationComponent } from './components/reservation/reservation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from "@angular/common/http";
     OrganizationEditComponent,
     ConferenceRoomEditComponent,
     ConferenceRoomAddComponent,
-    ConferenceRoomGetComponent
+    ConferenceRoomGetComponent,
+    ReservationComponent
   ],
   imports: [
     BrowserModule,

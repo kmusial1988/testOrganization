@@ -20,4 +20,13 @@ export class ConferenceRoomGetComponent implements OnInit {
   btnBackToMain= () => {
     this.router.navigateByUrl('/main');
   }
+
+  btnClickGoToEditRoom= () => {
+    this.router.navigateByUrl('/room/edit');
+  }
+
+  btnClickRemoveRoom= () => {
+    this.router.navigateByUrl('/room/get');
+    //TODO tu trzeba zrolić logige do wysyłania url api do remave
+  }
 }

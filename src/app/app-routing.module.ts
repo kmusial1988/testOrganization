@@ -8,6 +8,7 @@ import {OrganizationAddComponent} from "./components/organization-add/organizati
 import {OrganizationEditComponent} from "./components/organization-edit/organization-edit.component";
 import {OrganizationGetComponent} from "./components/organization-get/organization-get.component";
 import {MainComponent} from "./components/main/main.component";
+import {ReservationComponent} from "./components/reservation/reservation.component";
 
 const routes: Routes = [
   {path: 'main', component: MainComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'room/get', component: ConferenceRoomGetComponent},
   {path: 'organization/add', component: OrganizationAddComponent},
   {path: 'organization/edit', component: OrganizationEditComponent},
-  {path: 'organization/get', component: OrganizationGetComponent}
+  {path: 'organization/get', component: OrganizationGetComponent},
+  {path: 'reservation', component: ReservationComponent}
 
 ]
 

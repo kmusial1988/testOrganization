@@ -23,4 +23,7 @@ export class MainComponent implements OnInit {
   };
 
 
+  btnClickReservation= () => {
+    this.router.navigateByUrl('/reservation');
+  };
 }
