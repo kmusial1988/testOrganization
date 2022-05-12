@@ -2,25 +2,29 @@
   <div class="navi">
     <nav>
       <p>All Conference Room</p>
-      <button type="button" (click)="btnAddOrganization();" >Add</button>
-      <button type="button" (click)="btnBackToMain();" >Back</button>
+      <button type="button" (click)="btnBackToMain();">Back</button>
     </nav>
   </div>
 
   <div class="contentGetRoom">
 
     <div class="testTab">
-      <p>Name : Transporeon</p>
-      <p>Identifier : 15151515</p>
-      <p>Level : II Floor</p>
-      <p>Availability : YES</p>
-      <p>Places Sitting : 150</p>
-      <p>Places Standing : 150</p>
-
-
-      <button class="orgBtn" (click)="btnClickGoToEditRoom();">Edit</button>
-      <button class="orgBtn" (click)="btnClickRemoveRoom();">Remove</button>
-
+      <div class="tabData">
+        <div class="tabColumn">
+          <p><span class="tabSpan">Owner :</span> Transporeon</p>
+          <p><span class="tabSpan">Name :</span> room 1</p>
+          <p><span class="tabSpan">Level :</span> II Floor</p>
+        </div>
+        <div class="tabColumn">
+          <p><span class="tabSpan">Availability :</span> YES</p>
+          <p><span class="tabSpan">Places Sitting :</span> 150</p>
+          <p><span class="tabSpan">Places Standing :</span> 150</p>
+        </div>
+      </div>
+      <div class="tabButton">
+        <button (click)="btnClickGoToEditRoom();">Edit</button>
+        <button (click)="btnClickRemoveRoom();">Remove</button>
+      </div>
     </div>
   </div>
 </div>

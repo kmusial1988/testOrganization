@@ -1,45 +1,44 @@
-.mainContent{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  color: white;
-
-}
-.navi{
-  display: flex;
-  flex-direction: row;
-  height: 15vh;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  background-color: black;
-}
-nav{
-  display: flex;
-  flex-direction: row;
-  margin: 30px;
-}
-nav p {
-  font-size: 4vh;
-
-}
-
 .contentGetRoom{
   display: flex;
   flex-direction: column;
-  width: 60vw;
-  margin: 10vh auto;
-  border: solid greenyellow 1px;
-  padding: 20px;
-}
-.testTab{
-  display: flex;
-  flex-direction: row;
+  width: 80vw;
+  margin: 5vh auto;
+  overflow-scrolling: auto;
 
 }
-p{
+.testTab{
+  border: solid greenyellow 1px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  height: 30vh;
+}
+.tabData{
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+.tabColumn{
+  padding-left: 3vw;
+  padding-right: 2vw;
+}
+
+.tabColumn span{
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.testTab p{
   padding: 20px;
 }
+
+.tabButton{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
 

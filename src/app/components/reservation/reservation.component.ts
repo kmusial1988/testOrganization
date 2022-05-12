@@ -14,6 +14,6 @@ export class ReservationComponent implements OnInit {
   }
 
   btnBackToMain= () => {
-    this.router.navigateByUrl('/main');
+    this.router.navigateByUrl('/organization/get');
   }
 }

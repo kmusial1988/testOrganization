@@ -1,29 +1,12 @@
-.mainContent{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
 
-}
-
-.navi{
-  display: flex;
-  flex-direction: row;
-  height: 15vh;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  background-color: black;
-}
 nav{
   display: flex;
   flex-direction: row;
   margin: 30px;
 }
-
-
-
+nav button{
+  width: 25vw;
+}
 
 .contentLogo{
   position: relative;

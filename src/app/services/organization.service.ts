@@ -8,7 +8,7 @@ import {Organization} from "../models/Organization";
 })
 export class OrganizationService {
 
-  private createOrganizationUrl = 'http://localhost:8080/api/user  -- URL którym wysyła api do backend';
+  private createOrganizationUrl = 'http://localhost:8081/organization';
 
   constructor(private httpClient: HttpClient) {
   }

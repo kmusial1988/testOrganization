@@ -14,8 +14,9 @@ export class OrganizationAddComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  addOrganization(name: string, nip: string): void{
-    this.organizationService.createOrganization({name, nip} as Organization)
+
+  addOrganization(name: string): void{
+    this.organizationService.createOrganization({name} as Organization)
       .subscribe((data) => {console.warn(data)})
 
   }

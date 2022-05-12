@@ -1,44 +1,21 @@
-.mainContent{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  color: white;
-
-}
-
-.navi{
-  display: flex;
-  flex-direction: row;
-  height: 15vh;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  background-color: black;
-}
-nav{
-  display: flex;
-  flex-direction: row;
-  margin: 30px;
-}
-nav p {
-  font-size: 6vh;
-
-}
-
 .contentEditOrganization{
   display: flex;
   flex-direction: column;
   width: 40vw;
   margin: 10vh auto;
 }
+nav p{
+  line-height: 15vh;
+}
 label{
   font-size: 5vh;
-  margin: 2vh 2vh;
+  margin:2vh auto ;
 }
 input{
   height: 5vh;
+  width: 40vw;
   font-size: 4vh;
 }
-
+button{
+  margin: 5vh auto;
+}

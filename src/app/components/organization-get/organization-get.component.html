@@ -10,11 +10,19 @@
   <div class="contentGetOrganization">
 
     <div class="testTab">
-      <p>Organization Name : Transporeon</p>
-      <p>Nip Number : 15151515</p>
-      <button class="orgBtn" (click)="btnClickGoToEditOrganization();">Edit</button>
-      <button class="orgBtn" (click)="btnClickRemoveOrganization();">Remove</button>
-
+      <div class="tabData">
+        <p><span>Organization Name :</span> Transporeon</p>
+      </div>
+      <div class="tabButton">
+        <div class="tabColumn">
+          <button type="button" (click)="btnClickReservationRoom();">Reserve room</button>
+          <button type="button" (click)="btnClickGoToEditOrganization();">Edit</button>
+        </div>
+        <div class="tabColumn">
+          <button type="button" (click)="btnClickAddRoomToOrganization();">Add room</button>
+          <button type="button" (click)="btnClickRemoveOrganization();">Remove</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>

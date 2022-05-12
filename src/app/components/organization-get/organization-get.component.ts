@@ -29,4 +29,12 @@ export class OrganizationGetComponent implements OnInit {
     this.router.navigateByUrl('/organization/get');
     //TODO tu trzeba zrolić logige do wysyłania url api do usówania
   }
+  btnClickAddRoomToOrganization= () => {
+    this.router.navigateByUrl('/room/add');
+  }
+
+  btnClickReservationRoom= () => {
+    this.router.navigateByUrl('/reservation');
+    //TODO logika dodawania
+  }
 }

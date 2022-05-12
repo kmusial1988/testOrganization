@@ -7,20 +7,28 @@
   </div>
 
   <div class="contentAddRoom">
-    <label for="Name">Name: </label>
-    <input id="Name" #roomName/>
-    <label for="identifier">Identifier</label>
-    <input id="identifier" #identifier/>
-    <label for="level">Level: </label>
-    <input id="level" #level/>
-    <label for="availability">Availability</label>
-    <input id="availability" #availability/>
-    <label >Number of places: </label>
-    <label for="sitting">Sitting</label>
-    <input id="sitting" #sitting/>
-    <label for="standing">Standing</label>
-    <input id="standing" #standing/>
+    <div class="formUpColumn">
+      <div class="formColumn">
+        <label for="Name">Name: </label>
+        <label for="level">Level: </label>
+        <label for="availability">Availability:</label>
+        <label for="sitting">Sitting place:</label>
+        <label for="standing">Standing place:</label>
+      </div>
+      <div class="formColumn">
+        <input id="Name" #roomName/>
 
-    <button type="button">Done!</button>
+        <input id="level" #level/>
+
+        <input id="availability" #availability/>
+
+        <input id="sitting" #sitting/>
+
+        <input id="standing" #standing/>
+      </div>
+    </div>
+    <div class="formDownColumn">
+      <button type="button">Done!</button>
+    </div>
   </div>
 </div>

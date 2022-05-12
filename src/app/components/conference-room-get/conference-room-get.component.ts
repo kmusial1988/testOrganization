@@ -13,9 +13,7 @@ export class ConferenceRoomGetComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  btnAddOrganization= () => {
-    this.router.navigateByUrl('/room/add');
-  }
+
 
   btnBackToMain= () => {
     this.router.navigateByUrl('/main');

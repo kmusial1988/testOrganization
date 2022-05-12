@@ -7,11 +7,12 @@
   </div>
 
   <div class="contentAddOrganization">
-    <label for="organization-name">Organization Name: </label>
-    <input id="organization-name" #organizationName/>
-    <label for="organization-nip">NIP Number</label>
-    <input id="organization-nip" #organizationNip/>
 
-    <button type="button" (click)="addOrganization(organizationName.value, organizationNip.value);" >Done !</button>
+    <label for="organization-name">Organization Name: </label>
+
+    <input id="organization-name" #organizationName/>
+
+    <button type="button" (click)="addOrganization(organizationName.value);" >Done !</button>
+
   </div>
 </div>

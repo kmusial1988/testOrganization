@@ -15,6 +15,6 @@ export class ConferenceRoomAddComponent implements OnInit {
 
 
   btnClickToRoomGet= () => {
-    this.router.navigateByUrl('/room/get');
+    this.router.navigateByUrl('/organization/get');
   }
 }

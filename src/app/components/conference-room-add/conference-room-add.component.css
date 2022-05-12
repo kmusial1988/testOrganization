@@ -1,45 +1,39 @@
-.mainContent{
-  position: relative;
+/*nav p {*/
+/*  line-height: 15vh;*/
+/*}*/
+.contentAddRoom {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  color: white;
-
+  width: 60vw;
+  margin: 5vh auto;
 }
 
-.navi{
+.formUpColumn{
   display: flex;
   flex-direction: row;
-  height: 15vh;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  background-color: black;
+  margin: auto;
 }
-nav{
-  display: flex;
-  flex-direction: row;
-  margin: 30px;
-}
-nav p {
-  font-size: 6vh;
-
-}
-
-.contentAddRoom{
-  display: flex;
-  flex-direction: column;
-  width: 40vw;
+.formDownColumn{
   margin: 2vh auto;
 
 }
-label{
-  font-size: 3vh;
-  margin: 0.5vh 0.5vh;
-}
-input{
-  height: 4vh;
-  font-size: 3vh;
+label {
+  font-size: 4vh;
+  padding: 2vh 2vw;
 }
 
+input {
+  height: 5vh;
+  width: 25vw;
+  margin: 1.9vh 2vw;
+  font-size: 4vh;
+}
+
+button {
+  margin: 1vh auto;
+}
+
+.formColumn {
+  display: flex;
+  flex-direction: column;
+}
